@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Passport Management System" company="MSEC" webLink="http://" view-date="2021-02-18" view-index="0" gantt-divider-location="336" resource-divider-location="300" version="3.0.3000" locale="en_IN">
+    <description>
+        <![CDATA[Project for managing passport for customers.The applicant can apply passport and then book appoinment.Once verfication is done, the local police verification must be done.Then police update the verifiation status. Then the passport will be issued and later customer will be notified to collect the passport.]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="189" order="0"/>
+        <field id="tpd4" name="Begin date" width="72" order="1"/>
+        <field id="tpd5" name="End date" width="71" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="26" type="HOLIDAY">
+            <![CDATA[Republic Day]]>
+        </date>
+        <date year="" month="4" date="14" type="HOLIDAY">
+            <![CDATA[Dr. Ambedkar Jayanti]]>
+        </date>
+        <date year="" month="8" date="15" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="" month="10" date="2" type="HOLIDAY">
+            <![CDATA[Gandhi Jayanti]]>
+        </date>
+        <date year="" month="11" date="1" type="HOLIDAY">
+            <![CDATA[Kannada Rajyothsava]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas]]>
+        </date>
+        <date year="2020" month="1" date="15" type="HOLIDAY">
+            <![CDATA[Makara Sankranti]]>
+        </date>
+        <date year="2020" month="2" date="21" type="HOLIDAY">
+            <![CDATA[Maha Shivaratri]]>
+        </date>
+        <date year="2020" month="3" date="25" type="HOLIDAY">
+            <![CDATA[Ugadi]]>
+        </date>
+        <date year="2020" month="4" date="6" type="HOLIDAY">
+            <![CDATA[Mahavir Jayanti]]>
+        </date>
+        <date year="2020" month="4" date="10" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2020" month="4" date="26" type="HOLIDAY">
+            <![CDATA[Basava Jayanti]]>
+        </date>
+        <date year="2020" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Ramzan-Id/Id-Ul-Fitr]]>
+        </date>
+        <date year="2020" month="8" date="1" type="HOLIDAY">
+            <![CDATA[Bakrid]]>
+        </date>
+        <date year="2020" month="8" date="22" type="HOLIDAY">
+            <![CDATA[Ganesh Chaturthi]]>
+        </date>
+        <date year="2020" month="8" date="30" type="HOLIDAY">
+            <![CDATA[Moharum]]>
+        </date>
+        <date year="2020" month="9" date="17" type="HOLIDAY">
+            <![CDATA[Mahalaya Amavasye]]>
+        </date>
+        <date year="2020" month="10" date="25" type="HOLIDAY">
+            <![CDATA[Maha Navami]]>
+        </date>
+        <date year="2020" month="10" date="26" type="HOLIDAY">
+            <![CDATA[Vijaya Dashami]]>
+        </date>
+        <date year="2020" month="10" date="30" type="HOLIDAY">
+            <![CDATA[Id-E-Milad]]>
+        </date>
+        <date year="2020" month="10" date="31" type="HOLIDAY">
+            <![CDATA[Maharishi Valmiki Jayanti]]>
+        </date>
+        <date year="2020" month="11" date="14" type="HOLIDAY">
+            <![CDATA[Deepavali]]>
+        </date>
+        <date year="2020" month="11" date="16" type="HOLIDAY">
+            <![CDATA[Deepavali]]>
+        </date>
+        <date year="2020" month="12" date="3" type="HOLIDAY">
+            <![CDATA[Kanakadasa Jayanti]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="44" name="SRS" color="#8cb6ce" meeting="false" start="2021-02-19" duration="7" complete="0" thirdDate="2021-02-23" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Use case Diagram" color="#8cb6ce" meeting="false" start="2021-02-27" duration="10" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Fully Dressed Format]]>
+            </notes>
+        </task>
+        <task id="4" name="Activity Diagram" color="#8cb6ce" meeting="false" start="2021-03-11" duration="4" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Domain/Class Diagram" color="#8cb6ce" meeting="false" start="2021-03-16" duration="4" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Sequence Diagram" color="#8cb6ce" meeting="false" start="2021-03-20" duration="5" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="State Diagram" color="#8cb6ce" meeting="false" start="2021-03-26" duration="4" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="Forward Engineering" color="#8cb6ce" meeting="false" start="2021-03-31" duration="4" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="Reverse Engineering" color="#8cb6ce" meeting="false" start="2021-04-05" duration="4" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Component/Deployment Diagram" color="#8cb6ce" meeting="false" start="2021-04-09" duration="3" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+        <task id="30" name="Testing" color="#8cb6ce" meeting="false" start="2021-04-13" duration="7" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
